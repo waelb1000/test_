@@ -63,3 +63,7 @@ done
 
 #ajouter les 25 dernière lignes de l'history de mon terminal au fichier monpremierbash.sh 
   737  history |  tail -n 25 >> /home/wael/monpremierbash.sh
+#copier un fichier du serveur en local (metadata.tsv et scripts bash)
+scp wael@usegalaxy.sorbonne-universite.fr:/mnt/data/CONECT-bgi/Scripts/*.tsv .
+
+scp wael@usegalaxy.sorbonne-universite.fr:/mnt/data/CONECT-bgi/Scripts/*batch?.sh .
